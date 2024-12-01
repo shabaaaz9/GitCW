@@ -3,12 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Courses Worldwide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/vue@2.7.8/dist/vue.js"></script>
+    <title>Pet Store</title>
 </head>
 <body>
-    <div id="webstore" class="container">
-        <p>WOW</p>
+    <div id="webstore">
+        <h1> {{message}}</h1>
+        <button>
+            {{itemInCart}}
+            <span class="fa-solid fa-cart-plus"></span>
+            Check Out </button>
+        <main>
+            <div v-if="showProduct"></div>
+            <figure>
+                <img v-bind src="product.image" alt="Cat Image"
+                <img v-bind:src="product.image" alt="cat Image">
+                <h2 v-text="product.title"></h2>
+                <p v-text="product.description"></p>
+                <p>Price: {{product.price}} </p>
+                <button v-if="canAddToCart" v-on:click="addItemToCart">Add to Cart</button>
+                <div v-else>
+                    <button disabled> Add to cart</button>
+                    No more Product to Add !!! Inventory Empty !!!
+                </div>
+
+            </figure>
+        </main>
     </div>
     
+<script>
+    let webstore = new Vue({
+        el: '#webstore',
+        showProduct: true,
+        data:{
+            message: 'Welcome to my Pet Store !!!!',
+            product:{
+                id:1001,
+                title:'Cat Food 25lb bag',
+                description:'Irresistible cat food for your cat',
+                price: 2000,
+                image:'images/product-fullsize.png',
+                availabilityInventory: 5,
+            },
+            cart:[],
+        },
+        methods:{
+            addItemToCart(){
+                this.cart.push(this.product.id);
+            },
+            showCheckOut(){
+                if(this.showProduct){
+                    this.showProduct = false;
+                }else{
+                    this.showProduct = true;
+                }
+            }
+        },
+        computed:{
+            itemInCart:function(){
+                return this.cart.length || "";
+            },
+            canAddToCart(){
+                return this.product.availabilityInventory > this.itemInCart;
+            }
+        }
+    });
+</script>
 </body>
 </html>
