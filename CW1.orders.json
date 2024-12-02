@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "674d527f549052a78ae68142"
+  },
+  "userInfo": {
+    "name": "John",
+    "surname": "Doe",
+    "email": "johndoe@gmail.com",
+    "address": "Modern",
+    "city": "Vacoas",
+    "zip": "12345",
+    "num": "51234567"
+  },
+  "courses": [
+    {
+      "courseId": "674cbe0f91b3d21280232f59",
+      "quantity": 2
+    },
+    {
+      "courseId": "674cbe0f91b3d21280232f5a",
+      "quantity": 1
+    }
+  ],
+  "totalAmount": 105
+},
+{
+  "_id": {
+    "$oid": "674d53eb549052a78ae68143"
+  },
+  "userInfo": {
+    "name": "Jane",
+    "surname": "Doe",
+    "email": "janedoe@gmail.com",
+    "address": "Yike",
+    "city": "Rome",
+    "zip": "21313",
+    "num": "5123123512"
+  },
+  "courses": [
+    {
+      "courseId": "674cbe0f91b3d21280232f5a",
+      "title": "Music Production with Digital Tools",
+      "quantity": 2
+    }
+  ],
+  "totalAmount": 70
+},
+{
+  "_id": {
+    "$oid": "674d7a93549052a78ae68144"
+  },
+  "userInfo": {
+    "name": "Bob",
+    "surname": "Blake",
+    "email": "bob123@gmail.com",
+    "address": "Blake Lane",
+    "city": "London",
+    "zip": "123445",
+    "num": "567788666"
+  },
+  "courses": [
+    {
+      "courseId": "674cbe0f91b3d21280232f59",
+      "title": "Video Production and Editing",
+      "quantity": 2
+    }
+  ],
+  "totalAmount": 70
+}]

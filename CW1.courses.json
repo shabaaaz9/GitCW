@@ -1,0 +1,168 @@
+[{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f56"
+  },
+  "id": 1,
+  "title": "Python for Beginners",
+  "description": "Learn the basics of Python programming and start coding today!",
+  "price": 25.99,
+  "image": "images/python.webp",
+  "availableSeats": 10,
+  "rating": 4,
+  "location": "London",
+  "category": "Technology"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f57"
+  },
+  "id": 2,
+  "title": "Data Science for Beginners",
+  "description": "Explore the fundamentals of data analysis and visualization.",
+  "price": 30,
+  "image": "images/dataScience.png",
+  "availableSeats": 8,
+  "rating": 5,
+  "location": "Chicago",
+  "category": "Technology"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f58"
+  },
+  "id": 3,
+  "title": "Cybersecurity Essentials",
+  "description": "Understand the basics of protecting systems from cyber threats.",
+  "price": 27.5,
+  "image": "images/cyberSecurity.jpg",
+  "availableSeats": 8,
+  "rating": 4,
+  "location": "Rome",
+  "category": "Technology"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f59"
+  },
+  "id": 4,
+  "title": "Video Production and Editing",
+  "description": "Learn how to create and edit professional-quality videos.",
+  "price": 35,
+  "image": "images/videoEditing.jpg",
+  "availableSeats": 10,
+  "rating": 4,
+  "location": "New York",
+  "category": "Arts"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5a"
+  },
+  "id": 5,
+  "title": "Music Production with Digital Tools",
+  "description": "Create amazing music using industry-standard software.",
+  "price": 35,
+  "image": "images/musicProduction.jpg",
+  "availableSeats": 10,
+  "rating": 5,
+  "location": "Cape Town",
+  "category": "Arts"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5b"
+  },
+  "id": 6,
+  "title": "Photography and Photo Editing",
+  "description": "Master the art of photography and enhance your photos like a pro.",
+  "price": 40,
+  "image": "images/photography.jpeg",
+  "availableSeats": 6,
+  "rating": 5,
+  "location": "Sydney",
+  "category": "Arts"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5c"
+  },
+  "id": 7,
+  "title": "Astronomy for Beginners",
+  "description": "Discover the wonders of the universe and learn basic stargazing skills.",
+  "price": 20,
+  "image": "images/astronomy.jpg",
+  "availableSeats": 10,
+  "rating": 4,
+  "location": "Toronto",
+  "category": "Science"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5d"
+  },
+  "id": 8,
+  "title": "Electronics and Circuit Design",
+  "description": "Build and design your own electronic circuits.",
+  "price": 45,
+  "image": "images/electronics.jpg",
+  "availableSeats": 8,
+  "rating": 5,
+  "location": "Berlin",
+  "category": "Science"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5e"
+  },
+  "id": 9,
+  "title": "Basics of Entrepreneurship",
+  "description": "Learn how to start and manage your own business.",
+  "price": 33,
+  "image": "images/entrepreneurship.jpg",
+  "availableSeats": 10,
+  "rating": 4,
+  "location": "Paris",
+  "category": "Business"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f5f"
+  },
+  "id": 10,
+  "title": "Marketing with Social Media",
+  "description": "Master the art of social media marketing and grow your audience.",
+  "price": 30,
+  "image": "images/socialMediaMarketing.jpg",
+  "availableSeats": 10,
+  "rating": 3,
+  "location": "Madrid",
+  "category": "Business"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f60"
+  },
+  "id": 11,
+  "title": "Spanish Conversations Made Easy",
+  "description": "Learn to speak Spanish confidently with real-world scenarios.",
+  "price": 22,
+  "image": "images/spanish.jpg",
+  "availableSeats": 15,
+  "rating": 4,
+  "location": "Barcelona",
+  "category": "Languages"
+},
+{
+  "_id": {
+    "$oid": "674cbe0f91b3d21280232f61"
+  },
+  "id": 12,
+  "title": "Mandarin Basics",
+  "description": "Begin your journey to mastering Mandarin, one step at a time.",
+  "price": 35,
+  "image": "images/mandarin.jpg",
+  "availableSeats": 5,
+  "rating": 5,
+  "location": "Hong Kong",
+  "category": "Languages"
+}]
