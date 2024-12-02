@@ -105,6 +105,7 @@
 </div>
 </div>
 
+
   <script>
     let webstore = new Vue({
       el: '#webstore',
@@ -119,7 +120,7 @@
         sortOrder: 'asc',
       },
       created() {
-        fetch('http://coursework1.ap-south-1.elasticbeanstalk.com/collections/courses')
+        fetch('https://coursework1.ap-south-1.elasticbeanstalk.com/collections/courses')
           .then(response => response.json())
           .then(data => { this.courses = data;
             console.log('Fetched Courses:', data)
@@ -150,7 +151,7 @@
                 courses: this.cart.map(item => ({ courseId: item._id, title: item.title, quantity: item.quantity })),
                 totalAmount: this.cartTotal,
             };
-            fetch('http://coursework1.ap-south-1.elasticbeanstalk.com/collections/orders', {
+            fetch('https://coursework1.ap-south-1.elasticbeanstalk.com/collections/orders', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(order),
