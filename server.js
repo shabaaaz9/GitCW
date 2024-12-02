@@ -46,8 +46,6 @@ async function connectDB() {
 
 connectDB();
 
-app.get('/health', (req, res) => res.status(200).send('Server is running'));
-
 
 // Get all courses
 app.get('/collections/courses', async (req, res, next) => {
