@@ -46,6 +46,9 @@ async function connectDB() {
 
 connectDB();
 
+app.get('/health', (req, res) => res.status(200).send('Server is running'));
+
+
 // Get all courses
 app.get('/collections/courses', async (req, res, next) => {
     try {
@@ -85,6 +88,7 @@ app.use((err, req, res, next) => {
     console.error('Global error handler:', err);
     res.status(500).json({ error: 'An error occurred' });
 });
+
 
 // Start the server
 const port =  process.env.ENV || 3000;
